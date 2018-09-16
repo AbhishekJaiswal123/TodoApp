@@ -1,0 +1,55 @@
+.todolist {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-wrapper {
+   min-width: 70%;
+   justify-content: center;
+   display: flex;
+}
+.input {
+    padding: 15px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 50%;
+}
+
+.add-btn {
+    padding: 0 12px;
+    margin-left: 20px;
+    min-width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.tabs {
+    list-style: none;
+    display: flex;
+    margin: 32px 0;
+
+}
+
+.tab-btn {
+    text-transform: uppercase;
+    background: none;
+    border: 0;
+    outline: 0;
+    margin: 0 32px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.active-tab {
+    border-bottom: 1px solid rebeccapurple;
+}
+
+.todo-item {
+    cursor: pointer;
+}
