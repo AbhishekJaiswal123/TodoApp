@@ -13,11 +13,11 @@ const todos = (state = [], action) => {
             return [
                 state.map(todo => 
                     (todo.id === action.id) ? 
-                    {...todo, completed: !completed} : 
+                    {...todo, completed: !todo.completed} : 
                     todo)
             ]
 
-        case default: 
+        default: 
             return state
     }
 }

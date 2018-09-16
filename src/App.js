@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import TodoList from '../src/components/TodoList';
+import VisibleTodoList from '../src/container/visibleTodoList';
 
 class App extends Component {
   
   render() {
     return (
-        <TodoList/>
+        <VisibleTodoList/>
     );
   }
 }
